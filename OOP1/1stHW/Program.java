@@ -25,6 +25,8 @@ public class Program {
         Diaper Huggies = new Diaper("Huggies", 100, 50, "Упаковка", 0, "Да", "S", 5, 10, "Ткань");
         System.out.println(Huggies);
         Dummy Dummy = new Dummy("Соска", 32, 40, "Штука", 0, "Да");
+        Dummy.changePrice(39);
+        Dummy.changeAmount(20);
         System.out.println(Dummy);
     }
 }

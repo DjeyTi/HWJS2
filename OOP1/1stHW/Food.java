@@ -9,7 +9,7 @@ public class Food extends Product {
      * @param price - Цена
      * @param amount - Количество
      * @param measurement - Единица измерения
-     * @param exp_date - Срок годности
+     * @param exp_date - Срок годности              // Динамическая величина, тоже нужно мануально изменять
      */
     public Food(String name, int price, int amount, String measurement, String exp_date) {
         super(name, price, amount, measurement);
@@ -19,6 +19,10 @@ public class Food extends Product {
     public String toString() {
         return String.format("Название: %s, Цена: %d руб., На складе: %d, Измеряется: %s, Срок годности: %s.", 
         name, price, amount, measurement, exp_date);
+    }
+    
+    public void changeExp(String exp_date) {
+        this.exp_date = exp_date;
     }
 }
 /**

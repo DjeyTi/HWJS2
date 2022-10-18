@@ -47,6 +47,10 @@ class Milk extends Drink {
         return String.format("Название: %s, Цена: %d руб., На складе: %d, Измеряется: %s, Срок годности: %s, Жирность: %f процентов, Объём: %f л.", 
         name, price, amount, measurement, exp_date, fat, size);
     }
+
+    public void changeExp(String exp_date) {
+        this.exp_date = exp_date;
+    }
 }
 /**
  * Лимонад
