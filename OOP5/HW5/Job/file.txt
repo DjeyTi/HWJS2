@@ -1,0 +1,1 @@
+ID: 1, Name: Savchenko S.V., DoB: 29.12.95, payment: 48000p.

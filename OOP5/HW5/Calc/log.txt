@@ -1,0 +1,8 @@
+Operandum: sum, Type of number's: Irrational
+Operandum: sum, Type of number's: Complex
+Operandum: sub, Type of number's: Irrational
+Operandum: sub, Type of number's: Complex
+Operandum: div, Type of number's: Irrational
+Operandum: div, Type of number's: Complex
+Operandum: mult, Type of number's: Irrational
+Operandum: mult, Type of number's: Complex
